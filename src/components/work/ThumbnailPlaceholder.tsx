@@ -13,7 +13,7 @@ export default function ThumbnailPlaceholder({
     <div
       role="img"
       aria-label={label}
-      className="flex h-full w-full items-center justify-center bg-[radial-gradient(circle_at_30%_20%,#12294d_0%,#050B18_65%)]"
+      className="flex h-full w-full items-center justify-center bg-[radial-gradient(circle_at_30%_20%,#1E222A_0%,#0B0C0E_70%)]"
     >
       <div className="flex flex-col items-center gap-3 p-6 text-center">
         <PlayIcon className="h-10 w-10 text-ink-600" />

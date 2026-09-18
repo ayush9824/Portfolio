@@ -14,7 +14,7 @@ export default function Layout() {
   const { pathname } = useLocation()
 
   return (
-    <div className="flex min-h-screen flex-col bg-ink-950 bg-[radial-gradient(90%_40%_at_50%_-10%,rgba(37,99,235,0.10),transparent_65%)] text-bone-100 antialiased">
+    <div className="flex min-h-screen flex-col bg-ink-950 bg-[radial-gradient(85%_35%_at_50%_-5%,rgba(245,158,11,0.06),transparent_70%)] text-bone-100 antialiased">
       <SkipLink />
       <Header />
       <main id="main-content" className="flex-1">

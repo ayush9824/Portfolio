@@ -17,7 +17,7 @@ export default function AboutPreview() {
         <div className="relative">
           <div
             aria-hidden="true"
-            className="absolute -inset-5 rounded-[2rem] bg-[radial-gradient(circle_at_30%_20%,rgba(37,99,235,0.28),transparent_70%)] blur-2xl"
+            className="absolute -inset-5 rounded-[2rem] bg-[radial-gradient(circle_at_30%_20%,rgba(245,158,11,0.15),transparent_70%)] blur-2xl"
           />
           <div className="relative aspect-[4/5] overflow-hidden border border-ink-600 bg-ink-900">
             <ProfileImage src={about.photoUrl} name={siteConfig.name} />

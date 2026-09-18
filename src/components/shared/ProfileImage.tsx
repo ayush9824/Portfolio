@@ -20,7 +20,7 @@ export default function ProfileImage({ src, name }: ProfileImageProps) {
       <div
         role="img"
         aria-label={`Portrait of ${name}${src ? ' — unavailable' : ' — coming soon'}`}
-        className="flex h-full w-full items-center justify-center bg-[radial-gradient(circle_at_30%_20%,#12294d_0%,#050B18_65%)]"
+        className="flex h-full w-full items-center justify-center bg-[radial-gradient(circle_at_30%_20%,#1E222A_0%,#0B0C0E_70%)]"
       >
         <span className="text-xs uppercase tracking-widest text-bone-500">
           Portrait

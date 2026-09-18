@@ -110,7 +110,7 @@ export default function VideoModal({
         transition={transition}
         onClick={(e) => e.stopPropagation()}
         className={cn(
-          'm-auto w-full max-w-4xl border border-ink-600/70 bg-ink-900 shadow-[0_25px_60px_-12px_rgba(0,0,0,0.9),0_0_70px_-15px_rgba(37,99,235,0.45)]',
+          'm-auto w-full max-w-4xl border border-ink-600/70 bg-ink-900 shadow-[0_25px_60px_-12px_rgba(0,0,0,0.95),0_0_70px_-15px_rgba(245,158,11,0.20)]',
           open ? 'visible' : 'pointer-events-none invisible',
         )}
       >

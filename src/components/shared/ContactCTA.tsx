@@ -26,7 +26,7 @@ export default function ContactCTA({ primaryHref }: ContactCTAProps) {
     >
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute inset-0 bg-[radial-gradient(60%_90%_at_50%_110%,rgba(37,99,235,0.28),transparent_70%)]"
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(60%_90%_at_50%_110%,rgba(245,158,11,0.15),transparent_70%)]"
       />
       <div className="relative mx-auto max-w-3xl text-center">
         <p className="text-sm uppercase tracking-widest text-ember-400">
